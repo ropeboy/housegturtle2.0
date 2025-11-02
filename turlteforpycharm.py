@@ -1,6 +1,6 @@
 import turtle as t
-
-t.width(4)
+p = 4
+t.width(p)
 t.color("red")
 
 w = 120
@@ -9,13 +9,13 @@ x = -w // 2
 y = h // 2
 
 c = 0
-p = 4
+
 d = 0
 
 t.penup()
 t.setpos(x, y)
 t.pendown()
-t.right(90)
+t.right(180)
 
 for _ in range(h // p):
     for _ in range(w // p):
