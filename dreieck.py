@@ -4,7 +4,7 @@ t.hideTurtle()
 
 p = 8
 w = 240
-h = 360
+h = 240
 x = -w//2
 y = h//2
 c = 0
